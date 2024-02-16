@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840A80D02B7B84630058CECE /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A80CF2B7B84630058CECE /* ExploreView.swift */; };
+		840A80D22B7B85900058CECE /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A80D12B7B85900058CECE /* UserCell.swift */; };
+		840A80D42B7B8A6A0058CECE /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A80D32B7B8A6A0058CECE /* NotificationView.swift */; };
+		840A80D62B7B8A730058CECE /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A80D52B7B8A730058CECE /* NotificationCell.swift */; };
+		840A80D82B7BC0150058CECE /* CurrentUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A80D72B7BC0150058CECE /* CurrentUserProfile.swift */; };
+		840A80DA2B7BC0800058CECE /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A80D92B7BC0800058CECE /* ProfileHeaderView.swift */; };
+		840A80DC2B7BC08E0058CECE /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A80DB2B7BC08E0058CECE /* PostGridView.swift */; };
+		841ADE852B7E546B00847AC4 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841ADE842B7E546B00847AC4 /* Post.swift */; };
+		8429F7512B775E10008E05EC /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429F7502B775E10008E05EC /* FeedView.swift */; };
 		844DD8FE2B7652A100FF62C3 /* TikTokApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DD8FD2B7652A100FF62C3 /* TikTokApp.swift */; };
 		844DD9002B7652A100FF62C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DD8FF2B7652A100FF62C3 /* ContentView.swift */; };
 		844DD9022B7652A200FF62C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844DD9012B7652A200FF62C3 /* Assets.xcassets */; };
 		844DD9052B7652A200FF62C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844DD9042B7652A200FF62C3 /* Preview Assets.xcassets */; };
+		844DD91E2B76567600FF62C3 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DD91D2B76567600FF62C3 /* MainTabView.swift */; };
+		8492D3012B7A3F940085E1A2 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492D3002B7A3F940085E1A2 /* FeedCell.swift */; };
+		84CE52E52B7CE2B200FF1B9D /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE52E42B7CE2B200FF1B9D /* UserStatView.swift */; };
+		84F089822B7F5BA300942F29 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F089812B7F5BA200942F29 /* FeedViewModel.swift */; };
+		84F089842B7F5F4C00942F29 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F089832B7F5F4C00942F29 /* CustomVideoPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		840A80CF2B7B84630058CECE /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		840A80D12B7B85900058CECE /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		840A80D32B7B8A6A0058CECE /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		840A80D52B7B8A730058CECE /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		840A80D72B7BC0150058CECE /* CurrentUserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfile.swift; sourceTree = "<group>"; };
+		840A80D92B7BC0800058CECE /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		840A80DB2B7BC08E0058CECE /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		841ADE842B7E546B00847AC4 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		8429F7502B775E10008E05EC /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		844DD8FA2B7652A100FF62C3 /* TikTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		844DD8FD2B7652A100FF62C3 /* TikTokApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokApp.swift; sourceTree = "<group>"; };
 		844DD8FF2B7652A100FF62C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		844DD9012B7652A200FF62C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		844DD9042B7652A200FF62C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		844DD91D2B76567600FF62C3 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		8492D3002B7A3F940085E1A2 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		84CE52E42B7CE2B200FF1B9D /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
+		84F089812B7F5BA200942F29 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		84F089832B7F5F4C00942F29 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +79,9 @@
 		844DD8FC2B7652A100FF62C3 /* TikTok */ = {
 			isa = PBXGroup;
 			children = (
-				844DD8FD2B7652A100FF62C3 /* TikTokApp.swift */,
-				844DD8FF2B7652A100FF62C3 /* ContentView.swift */,
+				844DD9102B7652E200FF62C3 /* App */,
+				844DD90F2B7652E100FF62C3 /* Core */,
+				844DD90D2B7652DC00FF62C3 /* Model */,
 				844DD9012B7652A200FF62C3 /* Assets.xcassets */,
 				844DD9032B7652A200FF62C3 /* Preview Content */,
 			);
@@ -65,6 +94,131 @@
 				844DD9042B7652A200FF62C3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		844DD90D2B7652DC00FF62C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				841ADE842B7E546B00847AC4 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		844DD90F2B7652E100FF62C3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				844DD9192B76541400FF62C3 /* Comments */,
+				844DD9182B76541200FF62C3 /* Feed */,
+				844DD9172B76541000FF62C3 /* Notifications */,
+				844DD9162B76540E00FF62C3 /* Profile */,
+				844DD9152B76540C00FF62C3 /* Root */,
+				844DD9142B76540A00FF62C3 /* Search */,
+				844DD9132B76540500FF62C3 /* TabBar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		844DD9102B7652E200FF62C3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				844DD8FD2B7652A100FF62C3 /* TikTokApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		844DD9132B76540500FF62C3 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				844DD91D2B76567600FF62C3 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		844DD9142B76540A00FF62C3 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				840A80CF2B7B84630058CECE /* ExploreView.swift */,
+				840A80D12B7B85900058CECE /* UserCell.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		844DD9152B76540C00FF62C3 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				844DD8FF2B7652A100FF62C3 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		844DD9162B76540E00FF62C3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				84CE52E32B7CE27A00FF1B9D /* Components */,
+				84CE52E22B7CE26F00FF1B9D /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		844DD9172B76541000FF62C3 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				840A80D32B7B8A6A0058CECE /* NotificationView.swift */,
+				840A80D52B7B8A730058CECE /* NotificationCell.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		844DD9182B76541200FF62C3 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				84F089802B7F5B8300942F29 /* ViewModel */,
+				84F0897F2B7F5B8000942F29 /* View */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		844DD9192B76541400FF62C3 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				84F089832B7F5F4C00942F29 /* CustomVideoPlayer.swift */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		84CE52E22B7CE26F00FF1B9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				840A80D72B7BC0150058CECE /* CurrentUserProfile.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84CE52E32B7CE27A00FF1B9D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				840A80DB2B7BC08E0058CECE /* PostGridView.swift */,
+				840A80D92B7BC0800058CECE /* ProfileHeaderView.swift */,
+				84CE52E42B7CE2B200FF1B9D /* UserStatView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		84F0897F2B7F5B8000942F29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8492D3002B7A3F940085E1A2 /* FeedCell.swift */,
+				8429F7502B775E10008E05EC /* FeedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84F089802B7F5B8300942F29 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				84F089812B7F5BA200942F29 /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +291,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840A80D82B7BC0150058CECE /* CurrentUserProfile.swift in Sources */,
+				84F089842B7F5F4C00942F29 /* CustomVideoPlayer.swift in Sources */,
+				8429F7512B775E10008E05EC /* FeedView.swift in Sources */,
+				840A80DA2B7BC0800058CECE /* ProfileHeaderView.swift in Sources */,
+				84CE52E52B7CE2B200FF1B9D /* UserStatView.swift in Sources */,
+				840A80D62B7B8A730058CECE /* NotificationCell.swift in Sources */,
+				84F089822B7F5BA300942F29 /* FeedViewModel.swift in Sources */,
+				841ADE852B7E546B00847AC4 /* Post.swift in Sources */,
+				8492D3012B7A3F940085E1A2 /* FeedCell.swift in Sources */,
 				844DD9002B7652A100FF62C3 /* ContentView.swift in Sources */,
+				840A80D42B7B8A6A0058CECE /* NotificationView.swift in Sources */,
 				844DD8FE2B7652A100FF62C3 /* TikTokApp.swift in Sources */,
+				840A80DC2B7BC08E0058CECE /* PostGridView.swift in Sources */,
+				840A80D02B7B84630058CECE /* ExploreView.swift in Sources */,
+				844DD91E2B76567600FF62C3 /* MainTabView.swift in Sources */,
+				840A80D22B7B85900058CECE /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +442,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +471,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
